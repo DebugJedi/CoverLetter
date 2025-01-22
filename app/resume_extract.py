@@ -5,7 +5,6 @@ import yaml
 from PyPDF2 import PdfReader
 
 
-resume_file  = st.secrets['resume']
 
 class extract_resume():
         # https://boards.greenhouse.io/benchling/jobs/6270990
