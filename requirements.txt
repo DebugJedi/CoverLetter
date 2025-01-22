@@ -73,3 +73,4 @@ urllib3==2.2.3
 yarl==1.12.1
 streamlit-shadcn-ui==0.1.18
 PyPDF2
+openai
