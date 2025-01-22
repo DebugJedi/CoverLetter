@@ -5,8 +5,6 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_community.document_loaders import PyPDFLoader
 from jobPosting import extract_jobinfo
-from myData import my_data
-from resume_extract import extract_resume
 from dotenv import load_dotenv
 import yaml
 from openai import OpenAI
