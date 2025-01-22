@@ -35,7 +35,7 @@ class coverletter():
         ## INSTRUCTION:
         Scraped is the data which is a bit about my career experience and the resume.
         My name is xyz. Review the job information in {page_data}, and draft me a CoverLetter 
-        exhibiting to the hiring manager that I am a good fit for this role. Do not mention my email 
+        exhibiting to the hiring manager that I am a good fit for this role. Remeber to mention all the important keywords to be ATS ready. Do not mention my email 
         and other contact details. Never mention the names and company name.
         """
 
