@@ -9,8 +9,6 @@ from dotenv import load_dotenv
 import yaml
 from openai import OpenAI
 
-ignore = st.secrets['ignore']
-comp_ignore = st.secrets['comp_ignore']
 POST = st.secrets['post_url']
 class coverletter():
     def __init__(self, POST, file):
@@ -38,7 +36,7 @@ class coverletter():
         Scraped is the data which is a bit about my career experience and the resume.
         My name is xyz. Review the job information in {page_data}, and draft me a CoverLetter 
         exhibiting to the hiring manager that I am a good fit for this role. Do not mention my email 
-        and other contact details. Never mention the names {ignore} and {comp_ignore}.
+        and other contact details. Never mention the names and company name.
         """
 
         try: 
