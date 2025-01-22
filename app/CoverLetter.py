@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import yaml
 from openai import OpenAI
 
-POST = st.secrets['post_url']
+
 class coverletter():
     def __init__(self, POST, file):
         self.file = file
